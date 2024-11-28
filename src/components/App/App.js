@@ -50,7 +50,7 @@ const App = () => {
     <div className="Container">
 
       <h1>
-        Ja<span className="highlight">mmm</span>ing
+        A<span className="highlight">da</span>m
       </h1>
 
       <div className="App">
