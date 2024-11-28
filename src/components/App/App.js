@@ -52,6 +52,7 @@ const App = () => {
       <h1>
         A<span className="highlight">da</span>m
       </h1>
+      <h2>Music App</h2>
 
       <div className="App">
         <SearchBar onSearch={search} /> 
