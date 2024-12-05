@@ -1,5 +1,5 @@
 const clientId = 'f27ff02dbe60417583fa93b50eae6257'; 
-//const redirectUri = 'https://m1moraru.github.io/jammming1/'
+//const redirectUri = 'http://localhost:3000'
 const redirectUri = 'https://adamdasovich.github.io/jammming/'
 let accessToken;
 
@@ -59,6 +59,7 @@ const Spotify = {
       if (!jsonResponse.tracks) {
         return [];
       }
+      
       return jsonResponse.tracks.items.map(track => ({
         id: track.id,
         name: track.name,

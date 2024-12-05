@@ -17,6 +17,8 @@ const App = () => {
     Spotify.search(term).then(setSearchResults);
   }, []);
 
+  console.log(searchResults.tracks)
+
   const addTrack = useCallback(
     (track) => {
       if (playlistTracks.some((savedTrack) => savedTrack.id === track.id))
@@ -50,7 +52,7 @@ const App = () => {
     <div className="Container">
 
       <h1>
-        A<span className="highlight">da</span>m's
+        DD<span className="highlight">da</span>m's
       </h1>
       <h2>Music App</h2>
 
